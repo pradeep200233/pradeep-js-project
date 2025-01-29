@@ -1,0 +1,521 @@
+
+#main_cont{
+    width:100%;
+}
+header{
+    background-color: #f2f2f2;
+    height:60px;
+    padding:10px;
+    padding-left: 20px;
+    display: flex;
+    gap: 10px;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+}
+
+ 
+
+.car_icon{
+    margin-top: 5px;
+}
+.title{
+    color:#ebbc22 ;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:600;
+    margin-right:39%;
+}
+.button1{
+    height:36px;
+    width:83px;
+    border-width: 0px;
+    background-color: #3a3ce2 ;
+    border-radius: 10px;
+    margin-top: 2px;
+    color: #e6e6fa;
+}
+.Home{
+    margin-top: 7px;
+    margin-right: 5px;
+}
+.ör{
+    margin-top: 7px;
+}
+#Home_cont{
+    width:100%;
+    background-image: url("https://img.freepik.com/free-photo/futuristic-car-illustration_23-2151685419.jpg?t=st=1734453872~exp=1734457472~hmac=31183e488cbb76f8ff6c46c3e4baf2e8241a35cd6fdfef108dd85f0f993167a8&w=826");
+    background-size: cover;
+    height:550px;
+    padding-top: 45px;
+}
+#card_cont{
+    width:350px;
+    height:420px;
+    /* background-color: transparent; */
+    border:3px solid ;
+    border-radius: 20px;
+    /* box-shadow: 2px 5px 12px yellow;  */
+    margin-left:80px;
+    padding:10px;
+   
+}
+#card_cont:hover{
+    transform: scalex(1.1);
+        transform: scaleX(20deg);
+        box-shadow: 2px 5px 12px yellow; 
+        transition-duration: 0.5s;
+}
+.card_head1{
+    margin-top: 20px;
+    color: white;
+}
+.card_head2{
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+form{
+    margin-top: 36px;
+}
+.text{
+    font-weight: 600;
+    color: white;
+}
+select{
+    text-align: center;
+    height:30px;
+    width:180px;
+    border-radius: 6px;
+    margin-left:8px ;
+}
+.input1{
+    margin-top:8px;
+    height:32px;
+    width:180px;
+    border-radius: 6px;
+    border-width:0.5px;
+    padding-left:8px;
+    margin-left:8px ;
+}
+.duration{
+    text-align: center;
+    margin-top: 8px;
+}
+.button2{
+    width:100px;
+    margin-top: 6px;
+}
+
+
+
+#our_fleets{
+    /* background-color: #e6e6fa; */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.f_head{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Position the image container (needed to position the left and right arrows) */
+  .container {
+    position: relative;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Add a pointer when hovering over the thumbnail images */
+  .cursor {
+    cursor: pointer;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* Container for image text */
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Six columns side by side */
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  /* Add a transparency effect for thumnbail images */
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+.f_card{
+    width: 280px;
+    height:260px;
+    border:2px solid #006d80;
+    box-shadow: 1px 1px 4px #17da58; 
+    border-radius: 15px;
+    margin-top: 40px;
+}
+.f_card:hover{
+    transform: scalex(1.1);
+    transform: scaleX(20deg);
+    transition-duration: 0.5s;
+}
+.f_img{
+    width:95%;
+    padding-left:10px;
+}
+.f_texts{
+    padding-left:18px;
+}
+
+.main_about{
+    width:90%;
+    margin-top:60px;
+    margin-left:60px;
+    background-color: #86aad4;
+    padding-top:15px; 
+    padding-left:25px;
+    padding-Right:25px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+} 
+.FAQs_head{
+    width:90%;
+    margin-left:70px;
+    text-align: left;
+}
+.FAQS_cont{
+    width:90%;
+    margin-left:60px;
+    background-color: #86aad4;
+    padding-top:10px;
+    padding-left:25px;
+    padding-Right:25px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+.ques{
+    font-weight: bold;
+}
+.ans{
+    color:#100c08;
+}
+.main_contact{
+    width:100%;
+    margin-top:60px;
+    background-color: #100c08;
+    color: white;
+    padding:50px;
+    display: flex;
+    gap:250px;
+}
+.main_cont_icons{
+    display: flex;
+    gap:10px;
+}
+.icon_cont{
+    height:37px;
+    width:37px;
+    background-color: green;
+    border-radius: 30px;
+    text-align: center;
+    padding-top:3px;
+    border:1.5px solid white;
+    
+}
+.contact_icon{
+    color:white;
+    font-size: 16px;
+}
+
+
+.invisible{
+    visibility: hidden;
+}
+.hyd_main_cont{
+    width:100%;
+}
+.h-head{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+
+.hyd_cards{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows:auto;
+    column-gap: 10px;
+    row-gap: 40px;
+    padding-left: 40px;
+    padding-top: 20px;
+}
+.hyd_each_card{
+    width: 250px;
+    height:350px;
+    border:2px solid #078163;
+    box-shadow: 1px 1px 4px #29aadd; 
+    border-radius: 15px;
+}
+.hyd_each_card:hover{
+    transform: scalex(1.1);
+    transform: scaleX(20deg);
+    transition-duration: 0.5s;
+}
+.make{
+    padding-left: 10px;
+    font-size: 14px;
+}
+.model{
+    padding-left: 10px;
+    margin-top:-15px;
+    
+    font-weight: 700;
+}
+.icons_cont{
+    display:flex;
+    column-gap: 60px;
+    padding-left:10px;
+}
+li{
+    list-style-type: none;
+}
+.icon-size{
+    height:17px;
+    width:17px;
+}
+.diesel{
+    margin-left: -1px;
+}
+span{
+    font-size: 14px;
+    padding-left:4px;
+}
+#ul2{
+    margin-top: -10px;
+}
+#rupee{
+    height:13px;
+    padding-left: 10px;
+    margin-top: -7px;
+}
+.amount1{
+    font-size: 22px;
+    font-weight: 700;
+    padding-left: 0px;
+}
+.button3{
+    height:30px;
+    width:80px;
+    border-radius: 8px;
+    margin-left:70px;
+   
+}
+
+.hyd_label2{
+    margin-left: 30px;
+}
+.hyd_date_cont{
+    background-color: #29aadd;
+    margin-top: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+    height:60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px;
+}
+.button4{
+    margin-left:40px;
+    margin-top: 12px;
+    width:120px;
+}
+
+.book_main_cont{
+    padding: 20px;
+}
+.sec1_book{
+    width:65%;
+    height:330px;
+    box-shadow: 3px 3px 6px grey;
+}
+.make_model_style{
+    background-color: #29aadd;;
+    color: #e6e6fa;
+    height:50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 30px;
+}
+.car_style{
+    height:270px;
+    width:290px;
+    /* box-shadow: 3px 3px 6px grey; */
+}
+.sub_sec1{
+    padding-left: 10px;
+}
+.location_style{
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.from_style{
+    background-color: #e6e6fa;
+    border-radius: 5px;
+    height:40px;
+    padding:5px;
+}
+.text_style{
+    width:40px;
+    height:40px;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 200px;
+    padding-top: 5px;
+    background-color: #29aadd;;
+    color: #e6e6fa;
+}
+.sec2_book{
+    display: inline-block;
+    width:33%;
+    box-shadow: 3px 3px 6px grey;
+}
+.fare_head_style{
+    background-color: #29aadd;;
+    color: #e6e6fa;
+    height:50px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 5px;
+    padding-left: 20px;
+}
+.total_style{
+    font-size: 20px;
+    font-weight: 700;
+}
+.terms_conditions{
+    margin-top: 20px;
+    background-color: #e6e6fa;
+}
+.book_footer{
+    margin-top: 10px;
+}
+
+
+
+.sign_login{
+    background-image: url("https://images.pexels.com/photos/733745/pexels-photo-733745.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    display: flex;
+    justify-content: flex-end;
+    height:100vh;
+}
+.signup_main_cont{
+    background-color:#000000;
+    width:370px;
+    padding:30px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px #86aad4;
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.signup_head{
+   color: #3a3ce2;
+    text-align: center;
+}
+.input_signup{
+    margin-bottom: 8px;
+    width:300px;
+}
+.error1_su{
+    color:red;
+    text-align: left;
+}
+.submit_signup{
+    border-radius: 5px;
+    margin-bottom: 11px;
+    width:300px;
+}
+.login_text_sign_up{
+    color: #3a3ce2;
+}
+.login_cont{
+    margin-bottom: 150px;
+}

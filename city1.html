@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/caa6494be0.js" crossorigin="anonymous"></script>
+  <title>Hyderbad</title>
+  <link rel="stylesheet" href="./HP.css"/>
+</head>
+<body>
+    <div class="hyd_main_cont">
+        <header>
+          <img src="./car1.png" class="car_icon"/>
+          <h2 class="title">CarRentals</h2>
+          <p class="Home"><a href="./HP_user.html#Home_cont" style="color:black; text-decoration: none;">Home</a></p>
+          <p class="Home"><a href="./HP_user.html#our_fleets" style="color:black; text-decoration: none;">Fleets</a></p>
+          <p class="Home"><a href="./HP_user.html#About_us" style="color:black; text-decoration: none;">About Us</a></p>
+          <p class="Home"><a href="./HP_user.html#Contact_us" style="color:black; text-decoration: none;">Contact Us</a></p>
+          <p class="Home"><a href="./HP_user.html#FAQs" style="color:black; text-decoration: none;">FAQs</a></p>
+          <button class="button1">
+            <div class="d-flex flex-column">
+                <i class="fa-regular fa-user"></i>
+                <h6 id="user_name_hp">User</h6>
+            </div>
+          </button>
+          <p class="ör">or</p>
+          <button class="button1" id="logout_hp">Logout</button>
+        </header>
+      <div class="hyd_date_cont">
+      <form>
+      <table>
+        <tr>
+          <td><label for="pick_up_date" class="text">Pick-up-date</label></td>
+          <td class="text"> : </td>
+          <td><input type="datetime-local"  id="hyd_pick_up_date" name="pick_up_date" class="input1" placeholder="month day,year time"/></td>
+          <td><label for="return_date" class="text hyd_label2">Return Date</label></td>
+          <td class="text"> : </td>
+          <td><input type="datetime-local" id="hyd_return_date" name="return_date" class="input1" placeholder="month day,year time"/></td>
+          <td><button class="button1 button2 button4" id="hyd_modifybtn">Modify Search</button></td>
+        </tr>
+      </table>
+      </form>
+      
+      </div>
+      <h4 class="h-head">AVAILABLE CARS</h4>
+      <div id="hyd_cards_id" class="hyd_cards">
+      </div>
+      
+    </div>
+<script src="./city1.js"></script>
+<script>
+  console.log(localStorage.getItem("Username"));
+  
+  let random_user=localStorage.getItem("Username");
+  let get_logout_hp=document.getElementById("logout_hp");
+  console.log(random_user);
+
+  document.getElementById("user_name_hp").textContent=random_user;
+  get_logout_hp.onclick=function(){
+  window.location.assign("./HP.html");
+}
+</script>
+</body>
+</html>
+
